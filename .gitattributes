@@ -1,0 +1,6 @@
+# 行尾规范：Windows 批处理与 PowerShell 使用 CRLF，Markdown 使用 LF
+* text=auto
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.md text eol=lf
+.gitattributes text eol=lf
